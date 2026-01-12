@@ -1,0 +1,27 @@
+__pycache__/ 
+*.pyc 
+.env 
+venv/ 
+.venv/ 
+.idea/ 
+.vscode/ 
+.DS_Store 
+
+# Node / frontend
+node_modules/
+**/node_modules/
+package-lock.json
+yarn.lock
+.npm/
+
+# Vite / build
+.vite/
+dist/
+
+# Uploaded files and DB seeds
+smart_campus_management/uploads/
+
+# Logs
+*.log
+.env.local
+.env.*.local
